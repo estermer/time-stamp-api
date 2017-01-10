@@ -7,3 +7,21 @@
 2. If it does, it returns both the Unix timestamp and the natural language form of that date.
 
 3. If it does not contain a date or Unix timestamp, it returns null for those properties.
+
+
+### Example Uses
+
+`http://timestamp.herokuapp.com/December%20,%2016`
+
+or
+
+`http://timestamp.herokuapp.com/1450137600`
+
+***Expected Output***
+
+```js
+{
+  "unix": 1450137600,
+  "natural": "December 20, 2016"
+}
+```
